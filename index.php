@@ -5,7 +5,7 @@ require_once('route.php');
   <div class="header-right">
     <a class="active" href="index">Home</a>
     <a href="contact">Contact</a>
-    <a href="blog">Blog</a>
+    <a href="shop">Shop</a>
   </div>
 </div>
 
@@ -13,9 +13,9 @@ require_once('route.php');
 if($request == 'index' or $request == ''){
   echo "HOME";
 }
-else if($request == 'blog'){
+else if($request == 'shop'){
 
-	include_once('blog.php');
+	include_once('shop.php');
 }
 else if($request == 'contact'){
 
